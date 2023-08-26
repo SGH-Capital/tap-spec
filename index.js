@@ -1,15 +1,10 @@
-var fs = require('fs');
-
 var tapOut = require('tap-out');
 var through = require('through2');
 var duplexer = require('duplexer');
 var format = require('chalk');
 var prettyMs = require('pretty-ms');
 var _ = require('lodash');
-var repeat = require('repeat-string');
 var symbols = require('figures');
-
-var lTrimList = require('./lib/utils/l-trim-list');
 
 module.exports = function (spec) {
 

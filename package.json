@@ -32,7 +32,6 @@
     "figures": "^4.0.0",
     "lodash": "^4.17.10",
     "pretty-ms": "^2.1.0",
-    "repeat-string": "^1.5.2",
     "through2": "^3.0.2"
   },
   "bin": {
