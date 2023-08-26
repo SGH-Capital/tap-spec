@@ -1,4 +1,4 @@
-var tapOut = require('tap-out');
+var tapOut = require('@sgh-capital/tap-out');
 var through = require('through2');
 var duplexer = require('duplexer');
 var format = require('chalk');
